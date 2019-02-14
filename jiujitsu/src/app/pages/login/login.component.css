@@ -108,3 +108,6 @@
     color: white;
     background-color: #3b5998;
   }
+  .logo{
+    max-height:  180px; 
+  }
