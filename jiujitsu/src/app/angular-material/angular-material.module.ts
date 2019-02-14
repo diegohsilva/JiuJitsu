@@ -1,0 +1,86 @@
+import { NgModule } from '@angular/core';
+import {
+  MatButtonModule,
+  MatCheckboxModule,
+  MatToolbarModule,
+  MatSidenavModule,
+  MatIconModule,
+  MatListModule,
+  MatTableModule,
+  MatPaginatorModule,
+  MatSortModule,
+  MatCardModule,
+  MatFormFieldModule,
+  MatInputModule,
+  MatMenuModule,
+  MatSlideToggleModule,
+  MatExpansionModule,
+  MatProgressSpinnerModule,
+  MatOptionModule,
+  MatSelectModule,
+  MatDialogModule,
+  MatRadioModule,
+  MatProgressBarModule,
+  MatSnackBarModule
+} from '@angular/material';
+import { LayoutModule } from '@angular/cdk/layout';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule } from '@angular/forms';
+
+@NgModule({
+  imports: [
+    MatButtonModule,
+    MatCheckboxModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatMenuModule,
+    MatSlideToggleModule,
+    MatExpansionModule,
+    MatProgressSpinnerModule,
+    ReactiveFormsModule,
+    MatOptionModule,
+    MatSelectModule,
+    MatDialogModule,
+    MatRadioModule,
+    MatProgressBarModule,
+    MatSnackBarModule,
+    BrowserAnimationsModule
+  ],
+  exports: [
+    MatButtonModule,
+    MatCheckboxModule,
+    LayoutModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatMenuModule,
+    MatSlideToggleModule,
+    MatExpansionModule,
+    MatProgressSpinnerModule,
+    ReactiveFormsModule,
+    MatOptionModule,
+    MatSelectModule,
+    MatDialogModule,
+    MatRadioModule,
+    MatProgressBarModule,
+    MatSnackBarModule,
+    BrowserAnimationsModule
+  ]
+})
+export class AngularMaterialModule { }

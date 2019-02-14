@@ -1,4 +1,14 @@
-<h2>Login</h2>
 
-<a [routerLink]="[ '/pages']">Pages</a>
-<a [routerLink]="[ '/pages/login']">Pages/Login</a>
+<div class="example-container">
+  <mat-form-field class="col-12">
+    <input matInput placeholder="Usuário">
+  </mat-form-field>
+
+  <mat-form-field class="col-12">
+    <textarea matInput placeholder="Senha"></textarea>
+  </mat-form-field>
+
+  <div class="col-12">
+    <button mat-flat-button color="primary">Entrar</button>
+  </div>
+</div>
