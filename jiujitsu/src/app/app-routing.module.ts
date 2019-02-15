@@ -4,6 +4,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { PagesComponent } from './pages/pages.component';
 import { AlunoComponent } from './pages/aluno/aluno.component';
 import { ProfessorComponent } from './pages/professor/professor.component';
+import { TurmaComponent } from './pages/turma/turma.component';
 
 const routes: Routes = [
     {
@@ -26,7 +27,12 @@ const routes: Routes = [
             {
                 path: 'professor',
                 component: ProfessorComponent
+            },
+            {
+                path: 'turma',
+                component: TurmaComponent
             }
+
 
         ]
     },

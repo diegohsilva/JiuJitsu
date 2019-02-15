@@ -9,6 +9,8 @@ import { AlunoComponent } from './pages/aluno/aluno.component';
 import { AngularMaterialModule } from './angular-material/angular-material.module';
 import { FormsModule } from '@angular/forms';
 import { ProfessorComponent } from './pages/professor/professor.component';
+import { TurmaComponent } from './pages/turma/turma.component';
+
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { ProfessorComponent } from './pages/professor/professor.component';
     PagesComponent,
     AlunoComponent,
     ProfessorComponent,
+    TurmaComponent,
+
 
 
   ],
